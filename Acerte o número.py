@@ -24,5 +24,6 @@ while palpite != maquina:
         except ValueError:
             print("Tem certeza que digitou um número inteiro?Digite corretamente!")
 print(f"Você acertou após {cont} palpites.")
+
 print(f"O sorteio da máquina foi o número {maquina}, e você digitou {palpite}")
 
